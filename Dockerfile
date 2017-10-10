@@ -4,6 +4,6 @@ MAINTAINER andrea
 RUN apt-get -y update \
 && apt-get -y upgrade \
 && apt-get -y install mc \
-&& ap-get -y clean
+&& apt-get -y clean
 
 WORKDIR /root
